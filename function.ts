@@ -7,7 +7,7 @@ function addTwo(num : number){
 
 
 
-function getUpper(val : string){
+function getUpper(val : string): string{
     return val.toUpperCase()
 }
 
@@ -19,9 +19,23 @@ function getUpper(val : string){
 function signUpUser1(name :string, email :string , isPaid : boolean){}
 function signUpUser2(name :string, email :string , isPaid : boolean = false){}
 
-// signUpUser(1,2,3)                                  
-// signUpUser1('Ejaz','ejaz@gmail.com' ,false )           
-// signUpUser2('Ejaz','ejaz@gmail.com')           
+// signUpUser(1,2,3)                            --   wrong      
+// signUpUser1('Ejaz','ejaz@gmail.com' ,false )           --  correct   
+// signUpUser2('Ejaz','ejaz@gmail.com')         --  correct   
+
+
+
+// function getValue(val:number):boolean{
+//  if(val > 5){
+//     return true
+//  }
+//  return "200 OK "
+// }
+
+
+const getHello =(s:string):string=>{
+  return ""
+}
 
 
 
