@@ -17,4 +17,4 @@ const MLModels:number[][]=[
 superHeros.push("spaiderman")
 superPower.push(2)
 
-allUsers.push({name:"",isActive:true})
+allUsers.push({name:"",isActive:true}) 
