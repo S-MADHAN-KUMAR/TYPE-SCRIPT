@@ -36,3 +36,10 @@
  // array 
 
  const data : (number | string | boolean )[] = [1,true,'3']
+
+
+ let seatAllotment :"aisle" | 'middle' | 'window'
+
+ seatAllotment = "aisle"
+
+//  seatAllotment = "crew"             -- Wrong
